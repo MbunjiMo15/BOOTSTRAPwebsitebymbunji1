@@ -1,0 +1,90 @@
+.my-container-cards{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 1.5rem ;
+    padding-right: 1.5rem;
+
+}
+.my-containers-register{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 10rem ;
+    padding-right: 10rem;
+
+}
+.my-containers-register-heading{
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    padding-left: 10rem ;
+    padding-right: 10rem;
+
+}
+.hover-effect{
+    cursor: pointer;
+}
+/*
+.button-container{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-right:10rem;
+    justify-content: end;
+    
+}  */
+
+.button-spacing{
+   /*just a comment for now... not sure really if i'm gonna use this*/
+   align-items: center;
+}         
+
+.my-card{
+    margin-left: 1.5rem;
+}
+.footer-paragraph{
+    color: white;
+}
+.my-footer-container{
+    width: 100%;
+}
+.my-footer-col{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.icon{
+    height:60px;
+    width: 60px;
+    padding: .4rem;
+}
+.allignit{
+    align-items: center;
+}
+
+
+@media (max-width:767px){
+    .my-card{
+        margin-left: .35rem;
+    }
+    .my-footer-col{
+        width: 96%;
+    }
+    .my-container-cards{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: .35rem ;
+        padding-right: .35rem;
+    
+    }
+    .my-containers-register-heading{
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-left: .35rem ;
+        padding-right: .35rem;
+    
+    }
+    .my-containers-register{
+        padding-top: 1.5rem;
+        padding-bottom: 1rem;
+        padding-left: .35rem ;
+        padding-right: .35rem;
+    }
+
+}
